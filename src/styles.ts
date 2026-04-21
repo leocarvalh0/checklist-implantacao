@@ -25,10 +25,11 @@ export const GlobalCss = createGlobalStyle`
     }
 
     .no-print {
-  display: flex;
-}
+        display: flex;
+    }
 
-.pdf-mode .no-print {
-  display: none !important;
-}
+    .pdf-mode .no-print {
+        display: none !important;
+    }
+    
 `

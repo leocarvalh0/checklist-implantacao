@@ -11,6 +11,12 @@ export const Summary = styled.div`
   color: #222;
   line-height: 1.4;
 
+  h2 {
+    font-size: 16px;
+    margin-bottom: 32px;
+    padding-left: 8px;
+  }
+
   &.pdf-mode {
     width: 100%;
     padding: 16px;
@@ -53,16 +59,10 @@ export const Divider = styled.hr`
 
 // SECTION
 export const Section = styled.div`
-  margin-bottom: 16px;
+  padding-bottom: 150px;
 
   page-break-inside: avoid;
   break-inside: avoid;
-
-  h2 {
-    font-size: 16px;
-    margin-bottom: 32px;
-    padding-left: 8px;
-  }
 
   h3 {
     font-size: 14px;
@@ -208,4 +208,27 @@ export const InfoBox = styled.div`
   p {
     margin: 2px 0;
   }
+`
+
+export const SignatureSection = styled.div`
+  padding-bottom: 50px;
+
+  ul {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+`
+
+export const SignatureBox = styled.li`
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 16px;
+  color: #444;
+`
+
+export const SignatureLine = styled.div`
+  border-top: 1px solid #ddd;
+  margin-bottom: 8px;
 `

@@ -115,6 +115,30 @@ const Summary = ({ checklist, values }: Props) => {
             })}
           </S.Section>
 
+          <S.SignatureSection>
+            <ul>
+              <S.SignatureBox>
+                <S.SignatureLine />
+                <span>Técnico</span>
+              </S.SignatureBox>
+
+              <S.SignatureBox>
+                <S.SignatureLine />
+                <span>Supervisor técnico</span>
+              </S.SignatureBox>
+
+              <S.SignatureBox>
+                <S.SignatureLine />
+                <span>Lider de monitoramento</span>
+              </S.SignatureBox>
+
+              <S.SignatureBox>
+                <S.SignatureLine />
+                <span>Cliente</span>
+              </S.SignatureBox>
+            </ul>
+          </S.SignatureSection>
+
           <S.Footer>
             Grupo Vila Rica Portarias • www.grupovilaricaportarias.com.br
           </S.Footer>

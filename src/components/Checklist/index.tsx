@@ -60,7 +60,11 @@ const Checklist = () => {
         'CT3000',
         'ATA',
         'Khomps',
-        'Leitoras (facial/biometria)'
+        'Leitoras (facial/biometria)',
+        'Central de alarme',
+        'Sirene',
+        'Cerca elétrica e sensor de barreira',
+        'Central de choque'
       ]
     },
     access: {
@@ -69,6 +73,8 @@ const Checklist = () => {
         'Comando remoto liberando as portas',
         'Dispositivos, eventos, zonas e perfil configurados',
         'Câmeras vinculadas aos eventos',
+        'Carona',
+        'Remoty',
         'Intertravamento',
         'SIP'
       ]
